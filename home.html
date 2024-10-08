@@ -71,8 +71,13 @@
 
 
 
-
 	<body> 
+
+	<style>
+		.span{
+			color: red;
+		}
+	 </style>
 
 
 
@@ -101,32 +106,30 @@
 				<div class="header-wrapper">
 					<!-- MOBILE HEADER -->
 				    <div class="wsmobileheader clearfix">	  	
-						<a href="home.html">
-							<h4 class="smllogo" >Digitosy</h4>
-						</a>
+				    	<span class="smllogo"><img src="images/digitosylogo.jpg" alt="mobile-logo"></span>
 				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	
 				 	</div>
 
 
 				 	<!-- NAVIGATION MENU -->
 				  	<div class="wsmainfull menu clearfix">
-	    				<div class="wsmainwp clearfix" style="display: flex; justify-content: space-between; align-items: center;" >
+	    				<div class="wsmainwp clearfix"   >
 
-                           <div>
+                           <!-- <div> -->
 	    					<!-- HEADER BLACK LOGO -->
 	    					<div class="desktoplogo">
-	    						<a href="#hero-1" class="logo-black">
-									<h4 style="background: none;">Digitosy</h4>
+	    						<a href="#hero-1" class="logo-black"> 
+									 <img src="images/digitosylogo.jpg" alt="">
 	    						</a>
 	    					</div>
 
 	    					<!-- HEADER WHITE LOGO -->
 	    					<div class="desktoplogo">
 	    						<a href="home.html" class="logo-white"> 
-									<h4 style="color: aliceblue; background: none;">Digitosy</h4>
+									<img src="images/digitosylogo.jpg" alt=""> 
 								</a>
 	    					</div>
-						</div>
+						<!-- </div> -->
                         <div>
 	    					<!-- MAIN MENU -->
 	      					<nav class="wsmenu clearfix" >
@@ -185,13 +188,15 @@
 
 								<!-- Title -->
 								<!-- <h2 class="s-58 w-700">Content is the key to building an audience</h2> -->
-								<h2 class="s-50 w-700">Seamless Sales & Billing for Optical Businesses.</h2>
+								<h2 class="s-50 w-700">Seamless Sales & Billing for Optical <span    style="color: orangered;">Business</span>.</h2>
 
 								<!-- Text -->
 								<!-- <p class="p-xl">Mauris donec turpis suscipit sapien ociis sagittis sapien tempor a volute 
 									ligula and aliquet tortor
 								</p> -->
-								<p class="p-xl">Empower your eyewear business with streamlined sales and billing solutions designed specifically for lenses and frames. Elevate your customer experience and boost your bottom line.</p>
+								<p class="p-xl">Empower your eyewear business with streamlined sales and billing solutions designed specifically for lenses and frames. 
+									<span  style="color: orangered;" >Providing digital billing solution to</span>  elevate your customer experience and boost your bottom line
+									.</p>
 
 
 								<!-- Button -->	
@@ -261,7 +266,8 @@
 								<h2 class="s-46 w-700">Engage your most valuable visitors</h2>
 
 								<!-- Text -->	
-								<p>Capture the attention of your key customers with personalized experiences that drive interaction, build loyalty, and enhance the overall success of your optical business.
+								<p>Capture the attention of your key customers with personalized <span class="span " style="color: orangered;">billing</span> experiences that drive interaction, build loyalty, and enhance the overall success of your optical business.
+
 								</p>
 
 								<!-- Small Title -->	
@@ -393,57 +399,7 @@
 							</div>	
 						</div>
 					</div>
-
-
-					<!-- FEATURES-5 WRAPPER -->
-					<div class="fbox-wrapper text-center">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- FEATURE BOX #1 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-1 bg--white-400 r-16 wow fadeInUp">
-
-									<!-- Text -->
-									<div class="fbox-txt order-last order-md-2">
-										<h5 class="s-26 w-700">Marketing Integrations</h5>
-										<p>Seamlessly connect your sales with marketing tools to enhance customer engagement and drive growth.</p>
-									</div>
-
-		 							<!-- Image -->
-									<div class="fbox-5-img order-first order-md-2">
-										<img class="img-fluid light-theme-img" src="images/f_06.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_06_dark.png" alt="feature-image">
-									</div>
-						
-		 						</div>
-		 					</div>	<!-- END FEATURE BOX #1 -->
-
-
-		 					<!-- FEATURE BOX #2 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-2 bg--white-400 r-16 wow fadeInUp">
-
-		 							<!-- Image -->
-									<div class="fbox-5-img">
-										<img class="img-fluid light-theme-img" src="images/f_04.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_04_dark.png" alt="feature-image">
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h5 class="s-26 w-700">Enhance Engagement</h5>
-										<p>Boost customer interaction and satisfaction with tailored solutions that streamline communication and improve overall service quality.</p>
-									</div>
-
-		 						</div>
-		 					</div>	<!-- END FEATURE BOX #2 -->
-
-
-						</div>  <!-- End row -->  
-					</div>	<!-- END FEATURES-5 WRAPPER -->
-
-
+ 
 				</div>     <!-- End container -->
 			</section>	<!-- END FEATURES-5 -->
 
@@ -710,8 +666,10 @@
 
 											<!-- Text -->
 											<div class="fbox-txt">
-												<h5 class="s-19 w-700">Content Marketing</h5>
-												<p>Smart tracking and automated reordering for optimal stock levels.</p>
+												<h5 class="s-19 w-700">Inventory Management
+												</h5>
+												<p>Smart tracking and automated reordering for optimal stock levels.
+												</p>
 											</div>
 
 				 						</div>
@@ -902,8 +860,8 @@
 								<div class="img-block video-preview wow fadeInUp">
 
 									<!-- Play Icon --> 
-									<a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas">				
-										<div class="video-btn video-btn-xl bg--theme">	
+									<a class="video-popup2"  >				
+										<div class="video-btn video-btn-xl  ">	
 											<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
 										</div>
 									</a>
@@ -922,92 +880,7 @@
 
 
 
-
-			<!-- BRANDS-1
-			============================================= -->
-			<div id="brands-1" class="pt-80 pb-100 brands-section">
-				<div class="container">	
-
-
-					<!-- BRANDS TITLE -->
-					<div class="row justify-content-center">	
-						<div class="col-md-10 col-lg-9">
-							<div class="brands-title mb-50">
-								<h5 class="s-18">Digitosy is loved and trusted by thousands:</h5>
-							</div>
-						</div>
-					</div>
-
-
-					<!-- BRANDS CAROUSEL -->				
-					<div class="row">
-						<div class="col text-center">	
-							<div class="owl-carousel brands-carousel-5">
-
-												
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-1.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-1-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-2.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-3-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-4.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-4-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-5.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-5-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-6.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-6-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-7.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-7-white.png" alt="brand-logo"></a>
-								</div>
-
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-8.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-8-white.png" alt="brand-logo"></a>
-								</div>
-
-															
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-9.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-9-white.png" alt="brand-logo"></a>
-								</div>
-
-
-							</div>	
-						</div>
-					</div>  <!-- END BRANDS CAROUSEL -->
-
-
-				</div>	<!-- End container -->
-			</div>	<!-- END BRANDS-1 -->
+ 
 
 
 
@@ -1477,8 +1350,8 @@
 														
 											<!-- Data -->
 											<div class="review-author">
-												<h6 class="s-18 w-700">Marisol19</h6>
-												<p class="p-sm">@marisol19</p>
+												<h6 class="s-18 w-700">Rajkumar</h6>
+												<p class="p-sm">@Rajkumar</p>
 											</div>	
 
 										</div>	<!-- End Author -->
@@ -1511,7 +1384,7 @@
 														
 											<!-- Data -->
 											<div class="review-author">
-												<h6 class="s-18 w-700">Leslie D.</h6>
+												<h6 class="s-18 w-700">Rakesh Sharma.</h6>
 												<p class="p-sm">Web Developer</p>
 											</div>	
 
@@ -1545,7 +1418,7 @@
 														
 											<!-- Data -->
 											<div class="review-author">
-												<h6 class="s-18 w-700">Jennifer Harper</h6>
+												<h6 class="s-18 w-700">Atif Sheikh </h6>
 												<p class="p-sm">App Developer</p>
 											</div>	
 
@@ -1904,6 +1777,166 @@
 
 
 
+			<!-- FAQs-3
+			============================================= -->
+			<section id="faqs-3" class="pt-100 faqs-section">				
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->	
+					<div class="row justify-content-center">	
+						<div class="col-md-10 col-lg-9">
+							<div class="section-title mb-70">	
+
+								<!-- Title -->	
+								<h2 class="s-50 w-700">Questions & Answers</h2>	
+
+								<!-- Text -->	
+								<p class="s-21 color--grey">Find quick solutions to common inquiries and enhance your understanding.</p>
+									
+							</div>	
+						</div>
+					</div>
+
+
+					<!-- FAQs-3 QUESTIONS -->	
+					<div class="faqs-3-questions">
+						<div class="row">
+
+
+							<!-- QUESTIONS HOLDER -->
+							<div class="col-lg-6">
+								<div class="questions-holder">
+
+
+									<!-- QUESTION #1 -->
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>1.</span> Getting started with Digitosy</h5>
+
+										<!-- Answer -->
+										<p class="color--grey">Discover how to set up your account and navigate our platform effectively. We provide step-by-step guidance to ensure a smooth onboarding experience.
+										</p>
+
+									</div>	
+
+
+									<!-- QUESTION #2 -->					
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>2.</span> What's inside the package?</h5>
+
+										<!-- Answer -->
+										<p class="color--grey">Explore the features and tools included in your subscription. From essential software to support resources, we have everything you need to succeed.
+
+
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #3 -->					
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>3.</span> How do I choose a plan?</h5>
+
+										<!-- Answer -->
+										<ul class="simple-list color--grey">
+
+											<li class="list-item">
+												<p>Get insights on selecting the right plan based on your business needs.
+												</p>
+											</li>
+
+											<li class="list-item">
+												<p>Our comparison tool can help you identify the best options for your goals.
+												</p>
+											</li>
+
+										</ul>
+
+									</div>
+
+
+								</div>
+							</div>	<!-- END QUESTIONS HOLDER -->
+
+
+							<!-- QUESTIONS WRAPPER -->
+							<div class="col-lg-6">
+								<div class="questions-holder">
+
+								
+									<!-- QUESTION #4 -->					
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>4.</span> How does Digitosy handle my privacy?</h5>
+
+										<!-- Answer -->
+										<p class="color--grey">We prioritize your privacy with robust measures to protect your data. 
+										</p>
+
+										<!-- Answer -->
+										<p class="color--grey">Our transparent policies ensure that your information is managed securely.
+										</p>
+
+									</div>
+
+										
+									<!-- QUESTION #5 -->
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>5.</span> I have an issue with my account</h5>
+
+										<!-- Answer -->
+										<p class="color--grey">If you experience any account issues, our support team is ready to assist you. Contact us for prompt help with troubleshooting and resolutions.
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #6 -->
+									<div class="question mb-35 wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="s-22 w-700"><span>6.</span> Can I cancel at anytime?</h5>
+
+										<!-- Answer -->
+										<p class="color--grey">Yes, you can cancel your subscription whenever you choose. We provide clear guidelines on the cancellation process to make it easy for you.
+										</p>
+
+									</div>
+
+
+								</div>
+							</div>	<!-- END QUESTIONS HOLDER -->
+
+
+						</div>  <!-- End row -->	
+					</div>	<!-- END FAQs-3 QUESTIONS -->	
+
+
+					<!-- MORE QUESTIONS LINK -->	
+					<div class="row">
+						<div class="col">	
+							<div class="more-questions mt-40">
+								<div class="more-questions-txt bg--white-400 r-100">
+									<p class="p-lg">Have any questions? 
+										<a href="contacts.html" class="color--theme">Get in Touch</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>	   <!-- End container -->		
+			</section>	<!-- END FAQs-3 -->
 
 
 
