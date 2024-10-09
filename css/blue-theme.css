@@ -5425,7 +5425,7 @@ h5.h5-title {
 }
 
 .payment-icons img {
-  width: auto;
+  width: 60px;
   max-width: inherit;
   max-height: 32px;
 }

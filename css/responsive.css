@@ -2364,7 +2364,7 @@
   .comp-table-payment h6 { font-size: 1.15rem; margin-bottom: 14px; }
   .payment-icons li { padding-right: 2px; }
   .comp-table-payment .payment-icons { margin-top: 18px; }
-  .comp-table-payment .payment-icons img { width: auto; max-width: inherit; max-height: 22px; }
+  .comp-table-payment .payment-icons img { width: 50px; max-width: inherit; max-height: 22px; }
 
   /* TEAM */
   #tm-2-1, #tm-2-4, #tm-2-7, #tm-2-10 { margin-right: 0; }
@@ -5826,7 +5826,7 @@
   /* Header Logo */
   .wsmobileheader .smllogo { display: block; margin-top: 23px; padding-left: 16px; }
   .blog-header .wsmobileheader .smllogo { margin-top: 29px; }
-  .smllogo img { width: auto; max-width: inherit; max-height: 34px; }
+  .smllogo img { width: 60; max-width: inherit; max-height: 34px; }
   .blog-header .smllogo img { max-height: 28px; }
 
   .wsmenu > .wsmenu-list { width: 325px; margin-right: -325px; }
@@ -7015,7 +7015,7 @@
   /* Header Logo */
   .wsmobileheader .smllogo { display: block; margin-top: 23px; padding-left: 16px; }
   .blog-header .wsmobileheader .smllogo { margin-top: 29px; }
-  .smllogo img { width: auto; max-width: inherit; max-height: 34px; }
+  .smllogo img { width: 60px; max-width: inherit; max-height: 34px; }
   .blog-header .smllogo img { max-height: 28px; }
 
   .wsmenu > .wsmenu-list { width: 290px; margin-right: -290px; }
@@ -8238,7 +8238,7 @@
   /* Header Logo */
   .wsmobileheader .smllogo { display: block; margin-top: 24px; padding-left: 15px; }
   .blog-header .wsmobileheader .smllogo { margin-top: 30px; }
-  .smllogo img { width: auto; max-width: inherit; max-height: 32px; }
+  .smllogo img { width: 60px; max-width: inherit; max-height: 32px; }
   .blog-header .smllogo img { max-height: 26px; }
 
   .wsmenu > .wsmenu-list { width: 250px; margin-right: -250px; }

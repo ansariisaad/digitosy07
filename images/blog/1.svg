@@ -1,0 +1,9 @@
+<svg x="0" y="0" width="1905" height="1124" viewBox="0 0 1905 1124" version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c_1"><path d="M0,0H1905V1124H0Z"/></clipPath>
+</defs>
+<path d="M0 0V1124H1905V0Z" fill="#FFFFFF" stroke="none"/>
+<g clip-path="url(#c_1)">
+<image x="0" y="0" width="1905" height="1124" href="1/img/1.jpg"/>
+</g>
+</svg>
